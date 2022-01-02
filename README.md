@@ -32,6 +32,33 @@ The command above would delete all time records from the month January 2022. The
 {"message":"The time record was deleted successfully."}
 ```
 
+## Create one TimeRecord 
+
+A new time record can be created with the `put.sh` script, with this schema: 
+
+```
+./put.sh <YYYY-MM-DD> <START-TIME> <STOP-TIME> <PAUSE> <ACTIVITY> <COMMENT> 
+```
+
+START-TIME, STOP-TIME and PAUSE have to follow this pattern `HH:MM`. Here is an example: 
+
+```
+./put.sh 2022-01-02 09:00 12:00 00:00 'Development' 'Testing the put'
+```
+
+In case of success, the response will be `OK`.
+
+
+## Upload a Timesheet
+
+If you have a txt/csv timesheet based on a template from https://www.cherokey.de/StundenzettelProjektsteuerung.xlsx, then you can 
+upload the file to ZEIT.IO like this: 
+
+```
+./upload.sh Zeiterfassung.txt
+```
+
+
 ## License 
 
 The whole project is published under the MIT license. 
