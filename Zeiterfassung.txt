@@ -1,0 +1,43 @@
+2017	März																																																												
+																																																													
+	Mitarbeiter Name						Megapart	Megapart	Intern	Intern	Intern																																																		
+	Pers.Nr. 0000			Arbeitszeit			BLA	BLA	Meeting	Meeting	Urlaub																																																		
+	Beginn	Ende	Pause	Soll	Ist			Bemerkung		Bemerkung																																																			
+Mi.  01				8																																																									
+Do.  02				8																																																									
+Fr.  03				8																																																									
+Sa.  04																																																													
+So.  05																																																													
+Mo.  06				8																																																									
+Di.  07				8																																																									
+Mi.  08				8																																																									
+Do.  09				8																																																									
+Fr.  10				8																																																									
+Sa.  11																																																													
+So.  12																																																													
+Mo.  13				8																																																									
+Di.  14				8																																																									
+Mi.  15				8																																																									
+Do.  16				8																																																									
+Fr.  17				8																																																									
+Sa.  18																																																													
+So.  19																																																													
+Mo.  20				8																																																									
+Di.  21				8																																																									
+Mi.  22				8																																																									
+Do.  23				8																																																									
+Fr.  24				8																																																									
+Sa.  25																																																													
+So.  26																																																													
+Mo.  27				8																																																									
+Di.  28				8																																																									
+Mi.  29				8																																																									
+Do.  30				8																																																									
+Fr.  31				8																																																									
+				184	0,00		0,00		0,00																																																				
+																																																													
+	Gleitzeit	Urlaub																																																											
+Gesamt		30,0 T																																																											
+Vormonat		0,0 T																																																											
+Aktuell	-184,0 h	0,0 T																																																											
+Gesamt	-184,0 h	30,0 T																																																											
