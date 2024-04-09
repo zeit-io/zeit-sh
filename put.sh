@@ -24,6 +24,6 @@ PAUSE=$[ $PAUSE_H * 60 * 60 + $PAUSE_MIN * 60 ]
 
 curl -s -X POST "https://zeit.io/api/v1/usr/time_records/start_stop" \
   -H "Content-Type: application/json" -H "accept: application/json" -H "apiKey: $APIKEY" \
-  -d "{\"date\":\"${DATE}\",\"start_time\":\"${START}\",\"stop_time\":\"${STOP}\",\"pause\":${PAUSE},\"comment\":\"${COMMENT}\",\"hourly_wage_category\":\"remote\",\"project_id\":\"${PROJECT_ID}\",\"activity\":\"${ACTIVITY}\"}" \
+  -d "{\"date\":\"${DATE}\",\"start_time\":\"${START}\",\"stop_time\":\"${STOP}\",\"pause\":${PAUSE},\"comment\":\"${COMMENT}\",\"hourly_wage_category\":\"default\",\"project_id\":\"${PROJECT_ID}\",\"activity\":\"${ACTIVITY}\"}" \
   | sed 's/^{"error":"","message":"The time record was saved successfully.",.*$/OK/'
 echo
